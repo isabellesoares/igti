@@ -1,5 +1,7 @@
-var a = 2;
-var b = 3;
-var total = a + b;
-a = 5;
-console.log(total);
+var abacate = 2;
+var banana = 3;
+var totalFrutasSacola = abacate + banana;
+abacate = 5;
+totalFrutasSacola = abacate + banana;
+
+console.log(totalFrutasSacola);
