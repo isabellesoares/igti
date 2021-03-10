@@ -22,4 +22,6 @@ var mudancaTipo = 1;
 console.log(mudancaTipo);
 mudancaTipo = "Troquei de numero para texto";
 console.log(mudancaTipo);
+
 console.log(typeof(inteiro));
+console.log(typeof(decimal));
