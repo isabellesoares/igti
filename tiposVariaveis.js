@@ -24,4 +24,5 @@ mudancaTipo = "Troquei de numero para texto";
 console.log(mudancaTipo);
 
 console.log(typeof(inteiro));
+
 console.log(typeof(decimal));
