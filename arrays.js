@@ -24,3 +24,6 @@ console.log("ultimo elemento do array: " + carros[carros.length - 1]);
 
 carros.push("Polo");
 console.log(carros);
+
+carros.push(123);
+console.log(carros);
