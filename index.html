@@ -12,10 +12,26 @@
         <img width="200" src=https://img.ibxk.com.br/2016/02/24/24120655953583.jpg?w=1120&h=420&mode=crop&scale=both>  
         <h1 class="texto-header">Heading principal, ele vai até o h6</h1>
         <h2 id="texto2">Heading segundo</h2>
+
+        <script>
+            setTimeout(function(){
+                console.log("passou 1 segundo");
+            }, 1000);
+
+            setTimeout(function(){
+                console.log("passou 2 segundos");
+                //document.write("texto qualquer");
+            }, 2000);
+
+            console.log("Hello world no body");
+            
+        </script>
+
+
         <p class="borda paragrafo">Esse é um parágrafo</p>
         <br>
         <br>
-        <p>Esse é o final do parágrafo</p>
+        <p id="paragrafo" id="paragrafo2">Esse é o final do parágrafo</p>
 
         <a href="https://www.google.com/?&bih=969&biw=2560&rlz=1C1GCEU_pt-BRBR896BR896&hl=pt-BR">Ir para o google</a>
 
@@ -62,21 +78,25 @@
         <textarea rows="5" cols="20">Texto inicial</textarea>
         <br>
 
-        <button type="button" onclick="alert('Hello world')">Clique aqui</button>
+        <button type="button" onclick="clickBotao()">Clique aqui</button>
+        <button type="button" onclick="clickBotao2()">Clique aqui 2</button>
+        <br>
+        <br>
+        <br>
+        <img id="lampada" src="lampada_desligada.gif">
+        <br>
+        <br>
+        <button type="button" onclick="ligarLampada()">Ligar Lampada</button>
+        <button type="button" onclick="desligarLampada()">Desligar Lampada</button>
+        <br>
+        <br>
+        <button type="button" onclick="adicionarElemento()">Adicionar Elemento</button>
+        <button type="button" onclick="removerElemento()">Remover Elemento</button>
+        <BR>
+        <div id="div-elementos"></div>
 
-        <script>
-            setTimeout(function(){
-                console.log("passou 1 segundo");
-            }, 1000);
-
-            setTimeout(function(){
-                console.log("passou 2 segundos");
-                //document.write("texto qualquer");
-            }, 2000);
-
-            console.log("Hello world no body");
-            document.write("texto qualquer");
-        </script>
         <script src="index.js"></script>
+
+
     </body>
 </html>
