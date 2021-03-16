@@ -3,12 +3,16 @@
     <head>
         <title>Título da Página</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+        <script>
+            console.log("Hello world");
+        </script>
     </head>
     <body>
         <img width="200" src=https://img.ibxk.com.br/2016/02/24/24120655953583.jpg?w=1120&h=420&mode=crop&scale=both>  
-        <h1>Heading principal, ele vai até o h6</h1>
-
-        <p>Esse é um parágrafo</p>
+        <h1 class="texto-header">Heading principal, ele vai até o h6</h1>
+        <h2 id="texto2">Heading segundo</h2>
+        <p class="borda paragrafo">Esse é um parágrafo</p>
         <br>
         <br>
         <p>Esse é o final do parágrafo</p>
@@ -59,5 +63,20 @@
         <br>
 
         <button type="button" onclick="alert('Hello world')">Clique aqui</button>
+
+        <script>
+            setTimeout(function(){
+                console.log("passou 1 segundo");
+            }, 1000);
+
+            setTimeout(function(){
+                console.log("passou 2 segundos");
+                //document.write("texto qualquer");
+            }, 2000);
+
+            console.log("Hello world no body");
+            document.write("texto qualquer");
+        </script>
+        <script src="index.js"></script>
     </body>
 </html>
